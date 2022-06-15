@@ -75,31 +75,7 @@
 Kullanacagın dosyaları her zaman proje klasörünün içine koy!
 Width- Genişlik Attribuute, Height att
 -->
-<!-- Görsele Link Vermek
-Görsele link vermek için imgtag'i a taginin içerisinde kullanılır. Yönlendirilmek istenen yerin URL'i a taginin href özelliğine yazılır. Görsel ise a taginin açıklama kısmına eklenir.
-
-<a href="default.asp">
-  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
-</a>
-Buradan örneği inceleyebilirsiniz.
-
-map ve area
-Görselleriniz hyperlink atamanız durumunda görselin tüm alanı link alanı haline dönüşecektir. Görselin herhangi bir yerine tıklanılması durumunda görsel sizi tanımlanan bağlantıya gönderecektir. <img> etiketleri için kullanılan <map> ve <area> etiketleri ile resmin içindeki koordinatlarla belirlediğimiz bir alanı sadece link haline getirebiliriz. Eklediğimiz <area> etiketi kadar belirlenen alanı bir resim üzerinden birçok bağlantıya link verebiliriz.
-
-Örneğin Instagram'da bazı satıcılarda gördüğünüz bir insan fotoğraf üzerinde pantolon ve ayakkabının ürün linklerini ayrı ayrı vermek isterseniz kullanabilirsiniz.
-
-<html>
-<body>
-<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
-
-<map name="workmap">
- <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
- <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
- <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
-</map>
-</body>
-</html> -->
-
+<!-- -->
 <img width="200" height="300" src="https://assets.ubuntu.com/v1/700a384c-Centos-logo-light.svg" alt="Ubuntu Görseli">
 
 <img src="https://img-s2.onedio.com/id-53f48ff0d8f998bb6692467f/rev-0/raw/s-3d87398ccaf5042f940c33ec0f5f43934066e764.jpg" alt="Witch king">
@@ -108,6 +84,66 @@ Görselleriniz hyperlink atamanız durumunda görselin tüm alanı link alanı h
 
 <img src="Images/Eda.PNG" alt="Sevgilim">
 
+
+<h2>Linkler ile Çalısmak</h2>
+
+<!--
+    - Aynı sayfa içinde bir yere -> ID bilgisine git.
+    - Başka bir websitesine git
+    - Başka bir sayfaya git.
+    - Mail at
+    - Telefon et
+    href=""
+
+    Daha fazla özellikler(Att) için a'nın MDN referanslarını kontrol et.
+    target="_blank" yeni sekmede açma!
+-->
+<div>
+    <ul>
+        <li>
+            <a href="https://kodluyoruz.org" target="_blank">
+                Kodluyoruz sayfasına gidilecek
+                </a>
+        </li>
+        <li>
+            <a href="iletisim.html">
+                İletisim Sayfasına Git
+            </a>
+        </li>
+        <li>
+    <a href="#footer">
+        En Alt Kısma git
+    </a>
+        </li>
+        <li>
+            <a href="mailto:info@kodluyoruz">
+                Email At
+            </a>
+        </li>
+        <li>
+            <a href="tel:05556669988">
+                Telefon Et
+            </a>
+        </li>
+        <li>
+            <a href="https://picsum.photos/">
+                <img src="https://picsum.photos/500/300" alt="">
+            </a>
+        </li>
+        <!-- 
+            a Tag'inin içerisine her şey konabilir, görsel dahil!
+        
+        -->
+    </ul>
+</div>
+
+<!-- 
+    htmlreference.io -> hangi tagler inline ya da block görmek için kullan
+   div -> bir blok olusturmak için kullanılır! 
+
+-->
+
+<br> <!-- br - yeni bir satıra geç -->
 
 
 
